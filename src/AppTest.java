@@ -10,6 +10,6 @@ public class AppTest {
         assertEquals( 212.0, test.convertToFahrenheit(100), 0);
         assertEquals( -40.0, test.convertToFahrenheit(-40), 0);
         assertEquals( 98.6, test.convertToFahrenheit(37), 0);
-
+        
     }
 }
