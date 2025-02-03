@@ -7,10 +7,10 @@ public class App {
         Scanner celsius_Input = new Scanner(System.in);
         double fahrenheit = 0;
         double celsius = 0;
-        System.out.print("Enter temperature in celsius: ");
+        System.out.print("Enter a degree in Celsius: ");
         celsius = celsius_Input.nextDouble();
         fahrenheit = convertToFahrenheit(celsius);
-        System.out.println("Temperature in Fahrenheit is " + fahrenheit);
+        System.out.print(" " + celsius + " Celsius is  " + fahrenheit + " Fahrenheit");
         celsius_Input.close();
     }
 
